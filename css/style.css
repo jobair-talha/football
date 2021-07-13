@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1160px;
+    margin: 0  auto;
+}
+
+/* ---------------------------
+    Nav Part Start
+------------------------------- */
+nav {
+     position: absolute;
+     top: 42px;
+     left: 0;
+     width: 100%;
+}
+nav .main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+nav button{
+    background: #E02C6D;
+    padding: 10px 24px;
+    color: #fff;
+    border: 0;
+}
+nav button i{
+    font-size: 16px;
+    margin-right: 8px;
+}
+nav button span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+/* ---------------------------
+    Nav Part End
+------------------------------- */
+/* ---------------------------
+    Banner Part Start
+------------------------------- */
+#banner-part{
+ background: #2D25A0;
+ padding-top: 135px;
+ padding-bottom: 114px;
+}
+#banner-part .main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner-part h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: #fff;
+    width: 485px;
+    line-height: 80px;
+}
+#banner-part button{
+    background: #E02C6D;
+    padding: 10px 24px;
+    color: #fff;
+    border: 0;
+    margin-top: 27px;
+}
+#banner-part button a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+#banner-part button i{
+    font-size: 16px;
+    margin-left: 8px;
+    color: #fff;
+}
+#banner-part .img img{
+    width: 100%;
+}
+/* ---------------------------
+    Banner Part End
+------------------------------- */
