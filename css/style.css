@@ -112,6 +112,7 @@ nav button span{
 ------------------------------- */
 #player-part{
     padding-top: 70px;
+    padding-bottom: 174px;
 }
 #player-part main{
     display: grid;
@@ -146,4 +147,67 @@ nav button span{
 }
 /* ---------------------------
     Players Part End
+------------------------------- */
+/* ---------------------------
+    Highlights Part Start
+------------------------------- */
+#highlight main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#highlight .text{
+    width: 50%;
+}
+#highlight .text .details{
+    width: 469px;
+}
+#highlight .text .details h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #0A0826;
+    line-height: 60px;
+    margin-bottom: 8px;
+}
+#highlight .text .details p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #6C6C6C;
+    line-height: 26px;
+}
+#highlight .text .details button{
+    background: #E02C6D;
+    padding: 10px 24px;
+    color: #fff;
+    border: 0;
+    margin-top: 24px;
+}
+#highlight .text .details button a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+#highlight .text .details button i{
+    font-size: 16px;
+    margin-left: 8px;
+    color: #fff;
+}
+#highlight .img{
+    width: 50%;
+}
+#highlight .img img{
+    width: 100%;
+}
+/* ---------------------------
+    Highlights Part End
+------------------------------- */
+/* ---------------------------
+    Footer Part End
+------------------------------- */
+/* ---------------------------
+    Footer Part End
 ------------------------------- */
