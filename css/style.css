@@ -48,6 +48,14 @@ nav button{
     padding: 10px 24px;
     color: #fff;
     border: 0;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+nav button:hover{
+    background: #FEE715FF;
 }
 nav button i{
     font-size: 16px;
