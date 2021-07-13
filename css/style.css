@@ -208,6 +208,41 @@ nav button span{
 /* ---------------------------
     Footer Part End
 ------------------------------- */
+footer{
+    margin-top: 158px;
+    text-align: center;
+}
+footer .element{
+}
+footer .element img{
+    width: 483px;
+}
+footer .element .social{
+    margin-top: 20px;
+}
+footer .element .social i{
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    background: #E7E7E8;
+    color: #969BAB;
+    margin-right: 14px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+footer .element p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 /* ---------------------------
     Footer Part End
 ------------------------------- */
