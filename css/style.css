@@ -107,3 +107,43 @@ nav button span{
 /* ---------------------------
     Banner Part End
 ------------------------------- */
+/* ---------------------------
+    Players Part Start
+------------------------------- */
+#player-part{
+    padding-top: 70px;
+}
+#player-part main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+#player-part .item{
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+#player-part img{
+    width: 300px;
+    height: 256px;
+}
+#player-part .details h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #18191F;
+    line-height: 40px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+#player-part .details p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #18191F;
+    line-height: 26px;
+    margin-bottom: 23px;
+}
+/* ---------------------------
+    Players Part End
+------------------------------- */
