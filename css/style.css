@@ -103,6 +103,43 @@ nav button span{
 }
 #banner-part .img img{
     width: 100%;
+    animation: football 8s infinite;
+    -webkit-animation: football 8s infinite;
+}
+@keyframes football{
+    0%{
+        margin-left: 0;
+    }
+    10%{
+        margin-left: 5px;
+    }
+    20%{
+        margin-left: 10px;
+    }
+    30%{
+        margin-left: 15px;
+    }
+    40%{
+        margin-left: 20px;
+    }
+    50%{
+        margin-left: 25px;
+    }
+    60%{
+        margin-left: 20px;
+    }
+    70%{
+        margin-left: 15px;
+    }
+    80%{
+        margin-left: 10px;
+    }
+    90%{
+        margin-left: 5px;
+    }
+    100%{
+        margin-left: 0;
+    }
 }
 /* ---------------------------
     Banner Part End
@@ -206,10 +243,43 @@ nav button span{
     Highlights Part End
 ------------------------------- */
 /* ---------------------------
+    Partner Part Start
+------------------------------- */
+#partner-part{
+    margin-top: 170px;
+    margin-bottom: 60px;
+}
+#partner-part main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+#partner-part .item{
+    text-align: center;
+}
+/* ---------------------------
+    Partner Part End
+------------------------------- */
+/* ---------------------------
+    Gallery Part Start
+------------------------------- */
+#gallery-part{
+    padding: 80px 0;
+}
+#gallery-part main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+#gallery-part .item img{
+    width: 100%;
+}
+/* ---------------------------
+    Gallery Part End
+------------------------------- */
+/* ---------------------------
     Footer Part End
 ------------------------------- */
 footer{
-    margin-top: 158px;
     text-align: center;
 }
 footer .element{
